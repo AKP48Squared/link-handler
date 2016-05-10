@@ -1,0 +1,28 @@
+{
+  "name": "akp48-plugin-link-handler",
+  "version": "1.0.0",
+  "description": "Provides information about certain links when AKP48 sees them in a message.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "preversion": "git checkout master && git pull && npm ls",
+    "publish-patch": "npm run preversion && npm version patch && git push origin master --tags && npm publish",
+    "publish-minor": "npm run preversion && npm version minor && git push origin master --tags && npm publish",
+    "publish-major": "npm run preversion && npm version major && git push origin master --tags && npm publish"
+  },
+  "author": "Austin Peterson <austin@akpwebdesign.com> (http://akpwebdesign.com)",
+  "contributors": [
+    "Alan H (Feildmaster) <admin@feildmaster.com> (http://feildmaster.com/)",
+    "Austin Peterson <austin@akpwebdesign.com> (http://akpwebdesign.com/)"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AKP48Squared/link-handler.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AKP48Squared/link-handler/issues"
+  },
+  "homepage": "https://github.com/AKP48Squared/link-handler",
+  "license": "MIT"
+}
