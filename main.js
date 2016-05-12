@@ -1,8 +1,7 @@
 'use strict';
-const MessageHandlerPlugin = require('../../lib/MessageHandlerPlugin');
 const regexes = require('./regexes');
 
-class LinkHandler extends MessageHandlerPlugin {
+class LinkHandler extends global.AKP48.pluginTypes.MessageHandler {
   constructor(AKP48) {
     super('LinkHandler', AKP48);
   }
