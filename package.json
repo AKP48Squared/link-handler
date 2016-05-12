@@ -1,6 +1,6 @@
 {
   "name": "akp48-plugin-link-handler",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Provides information about certain links when AKP48 sees them in a message.",
   "main": "main.js",
   "scripts": {
@@ -23,6 +23,5 @@
   "bugs": {
     "url": "https://github.com/AKP48Squared/link-handler/issues"
   },
-  "homepage": "https://github.com/AKP48Squared/link-handler",
-  "license": "MIT"
+  "homepage": "https://github.com/AKP48Squared/link-handler"
 }
