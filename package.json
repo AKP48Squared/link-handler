@@ -1,6 +1,6 @@
 {
   "name": "akp48-plugin-link-handler",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Provides information about certain links when AKP48 sees them in a message.",
   "main": "main.js",
   "scripts": {
