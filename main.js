@@ -30,3 +30,4 @@ LinkHandler.prototype.handleLink = function (url, context) {
 
 module.exports = LinkHandler;
 module.exports.type = 'MessageHandler';
+module.exports.pluginName = 'link-handler';
